@@ -8,7 +8,7 @@ func TestSquareIsWhite(t *testing.T) {
 		t.Errorf("expected be false, but %t got", ans)
 	}
 	if ans := squareIsWhite("h3"); ans != true {
-		t.Errorf("expected be false, but %t got", ans)
+		t.Errorf("expected be true, but %t got", ans)
 	}
 	if ans := squareIsWhite("c7"); ans != false {
 		t.Errorf("expected be false, but %t got", ans)
